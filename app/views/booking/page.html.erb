@@ -1,0 +1,19 @@
+
+<div class="row">
+    
+    <% @sites.each do |site| %>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+            <%= image_tag site.picture, class: "card-img-top" %>
+            <div class="card-body">
+                <h5 class="card-title"><%= site.sitename%></h5>
+                <p class="card-text site-description"><%= site.description%></p>
+                <p class="card-text">$<%= site.price%>
+                <%= link_to "Show More", site_path(site.id), class:"btn btn-primary btn-right" %></p>
+            </div>
+            </div>
+    </div>
+    <% end %>
+</div>
+
+
