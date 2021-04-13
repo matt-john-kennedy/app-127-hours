@@ -1866,7 +1866,7 @@
     "normalize-path" "~3.0.0"
     "readdirp" "~3.5.0"
   optionalDependencies:
-    "fsevents" "~2.3.1"
+
 
 "chownr@^1.1.1":
   "integrity" "sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg=="
